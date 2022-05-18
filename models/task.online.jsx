@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import {TaskCompA} from "../../models/taskClass.class";
+import {TaskCompA} from "./taskClass.class";
 
 const TaskConnectComponent = ({ task }) => {
     return (
