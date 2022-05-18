@@ -1,7 +1,7 @@
 import React from "react";
-import {TaskCompA} from "../../models/taskClass.class";
-import TaskComponents from "../pure/task.online";
-import {ONLINE} from "../../models/levels.online";
+import {TaskCompA} from "./taskClass.class";
+import TaskComponents from "./task.online";
+import {ONLINE} from ".levels.online";
 
 const ListComponent = () => {
 const defaultTask = new TaskCompA("Example", "Default", "email@email.com ",false, ONLINE.OFFLINE);
